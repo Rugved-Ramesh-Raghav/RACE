@@ -1,0 +1,251 @@
+
+
+body{
+    background-color: black;
+    text-align: center;
+}
+
+#hd{
+    width: 1000px;
+    border: solid lightskyblue 5px;
+    box-shadow: 0 4px 8px 0 cyan, 0 6px 20px 0 cyan;
+}
+
+#hdd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701883875.jpg);
+}
+
+#ger{
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+    animation: shining 1s linear infinite;
+    transition: 1s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor:grab;
+    margin-left: 750px;
+}
+
+#ua{
+    cursor: help;
+}
+
+#cer{
+    cursor:cell;
+}
+
+#ver{
+    cursor: copy;
+}
+
+#uc{
+    cursor:wait;
+}
+
+@keyframes shining{
+    50%{
+        text-shadow: 1px 1px 2px gold,  0 0px orange,  0 0px orangered;
+        color: rgb(255, 253, 126);
+        font-size: large;
+    }
+
+    0%, 100%{
+        text-shadow: none;
+    }
+}
+
+#arrows{
+    height: 200px;
+    animation: arrow 1s infinite;
+    position: relative;
+    animation-play-state: running;
+    }
+    
+    @keyframes arrow {
+        from {
+            top: 15px;
+        }
+    
+        to {
+            top: 90px;
+        }
+    }
+
+#gwr{
+    width: 100%;
+} 
+
+.trophies{
+    height: 250px;
+}
+
+.tro{
+    width: 500px;
+}
+
+#awards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#awards2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#rev{
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-vector/space-background-with-planet-landscape_107791-6146.jpg?size=626&ext=jpg);
+}
+
+.reviews {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 500px;
+}
+
+#details{
+    height: 25px;
+    width: 250px;
+    text-align: center;
+}
+
+form{
+    padding: 15px;
+    border:solid 5px gold ;
+    background-image: linear-gradient( purple, cyan);
+    cursor: default;
+    border-radius: 20px;
+    height: min-content;
+    width: 500px;
+    float: right;
+}
+
+#formsub{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    font-size: larger;
+    background-color: yellow;
+    color: darkblue;
+}
+
+#formsub:hover{
+    background-color: darkblue;
+    color: yellow;
+    cursor: pointer;
+}
+
+#form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#gerh{
+    animation: cy 7s infinite;
+}
+
+@keyframes cy{
+    0%, 20%, 40%, 60%, 80%, 100%{
+        color: azure;
+  text-shadow:0 0 25px rgb(0, 68, 255), 0 0 5px rgb(0, 68, 255);
+    }
+
+    10%, 30%, 50%, 70%, 90%{
+        color: black;
+        text-shadow: none;
+    }
+}
+
+table,
+tr,
+td,
+th {
+    margin: auto;
+    border: 2px solid lightgray;
+    border-spacing: 5px;
+    padding: 20px;
+    border-collapse: collapse;
+    font-size: 40px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+tr:hover {
+    background-color: gray;
+}
+
+#timings{
+    display: none;
+}
+
+#pink{
+    height: 175px;
+    width: 495px;
+    border-radius: 100px;
+    font-size: 75px;
+    color: azure;
+    background-color: hotpink;
+    border: solid blueviolet 5px;
+    font-weight: bold;
+}
+
+#pink:hover{
+    cursor: pointer;
+    color: hotpink;
+    background-color: blueviolet;
+    border: solid azure 5px;
+}
+
+#desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#badge{
+    width: 500px;
+}
+
+#next {
+    background-image: linear-gradient(to right, red , yellow);
+    border: 5px solid gold;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    margin: 10px 30px;
+    cursor: pointer;
+    text-decoration:none;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#next:hover{
+    background-image: linear-gradient(to right, yellow , red);
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

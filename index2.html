@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Cosmos - 4027</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="./MC4027.png" type="image/png">
+</head>
+<body>
+    <div id="stad">
+    <div id="stats">
+        <div id="rec">
+            <div id="rec2">
+            <img id="st" src="./race.png">
+            </div><br>
+            <div id="rec3">
+                <img id="mc" src="./MC4027.png">            
+            </div><br>
+            <div id="rec4">
+                <span id="sttt" style="color: azure; font-size: 25px;">Status: In🚧Progress<br>Operator: 👨‍🚀Rugved Raghav<br>Spaceship: Cosmo🚀Bus-142<br>Fuel level: <span class="change"></span><br><br><b>Have a amazing journey!</b></span>
+                </p>
+            </div>
+            <button id="ls" onclick="switcher()">
+                Load Status
+            </button>
+        </div>
+    </div>
+    <div id="sss">
+    <div id="ss">
+    <img id="star1" class="stars" src="./star1.png">
+    <img id="star2" class="stars" src="./star2.png">
+    <img id="star3" class="stars" src="./star3.png">
+    <img id="star4" class="stars" src="./star4.png">
+    <img id="star5" class="stars" src="./star5.png">
+    <img id="star6" class="stars" src="./star6.png">
+    <img id="star7" class="stars" src="./star7.png">
+    <img id="star8" class="stars" src="./star8.png">
+    <img src="./window.png" id="window">
+    </div>
+    </div>
+    <div id="infocard">
+    <p style="color: white; font-weight: bolder; font-size: 45px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><caption><b>Next stop:</b></caption></p>
+    <p id="marsp" style="color: white; font-size: 45px;"><caption><b>MARS</b></caption></p><br>
+    <div id="mars"></div>
+    </div>
+    </div>
+<script>
+    function switcher() {
+    var x = document.getElementById("rec4");
+    if (x.style.display === "none") {
+    x.style.display = "block";
+    } else {
+    x.style.display = "none";
+    }
+    }
+    </script>
+</body>
+</html>
